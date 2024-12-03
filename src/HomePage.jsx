@@ -7,35 +7,28 @@ export default function HomePage() {
         <>
             <Header title="GLOZZIO" />
 
-            <main className="container my-5">
-                <h2 className="text-center mb-4">Featured Products</h2>
+            <main className="container my-3">
+                <h2 className="text-center mb-3">Featured Products</h2>
                 <div className="row">
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 mb-3">
                         <ProductCard
-                            imageUrl="/images/DarkBlueBlouse1.jpg"
-                            productName="NavyBlue Blouse"
-                            price="$50"
+                            imageUrl="public/images/kiko 3.jpg"
+                            productName="KIKO"
+                            price="$10"
                         />
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 mb-3">
                         <ProductCard
-                            imageUrl="/images/PinkBlouse1.jpg"
-                            productName="Pink Blouse with Aari designs"
-                            price="$60"
+                            imageUrl="public/images/odette 3.jpg"
+                            productName="ODETTE"
+                            price="$10"
                         />
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 mb-3">
                         <ProductCard
-                            imageUrl="/images/GreenBlouse1.jpg"
-                            productName="Green Blouse with peach"
-                            price="$40"
-                        />
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <ProductCard
-                            imageUrl="/images/PurpleBlouse1.jpg"
-                            productName="Purple Blouse with stones"
-                            price="$45"
+                            imageUrl="public/images/rose 3.jpg"
+                            productName="ROSE"
+                            price="$10"
                         />
                     </div>
                 </div>

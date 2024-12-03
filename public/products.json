@@ -1,37 +1,4 @@
 [
-    {
-      "id": 1,
-      "name": "Navy Blouse",
-      "price": 50,
-      "image": "src/images/DarkBlueBlouse1.jpg",
-      "description": "Premium cloth with navy blue colour with designed work"
-    },
-    {
-      "id": 2,
-      "name": "Pink Blouse",
-      "price": 60,
-      "image": "src/images/PinkBlouse1.jpg",
-      "description": "Pink Blouse in velvet cloth with Aari designs"
-    },
-    {
-      "id": 3,
-      "name": "Green Blouse",
-      "price": 40,
-      "image": "src/images/GreenBlouse1.jpg",
-      "description": "Green Blouse with peach shade blended to give a premium look"
-    },
-    {
-      "id": 4,
-      "name": "Purple Blouse",
-      "price": 45,
-      "image": "src/images/PurpleBlouse1.jpg",
-      "description": "Dark Purple/Violet with attractive borders"
-    },
-    {
-      "id": 5,
-      "name": "Bright Blue Blouse",
-      "price": 48,
-      "image": "src/images/LightBlueBlouse2.jpg",
-      "description": "Light Bright Blue blouse, that gives a sophisticated look"
-    }
+
+
   ]
