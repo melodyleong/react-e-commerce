@@ -11,6 +11,7 @@ export default function ProductPage() {
             try {
               const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/products`);
               setProducts(response.data);
+              console.log('Products:', response.data);
             } catch (error) {
               console.error('Error fetching products:', error);
             }
@@ -51,7 +52,10 @@ export default function ProductPage() {
                         })()
                     }}
     */
-    return (
+    return (<>
+        <div    className="container my-5">
+           <h1></h1> </div>
+
         <div className="container my-5">
             <h1 className="text-center mb-4">Our Products</h1>
             <div className="row">
@@ -70,5 +74,6 @@ export default function ProductPage() {
                 ))}
             </div>
         </div>
+        </>
     );
 }
